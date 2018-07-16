@@ -1,0 +1,129 @@
+/*
+Light Green -> #8BC34A // Theme Color
+Light2 Green -> #7CB342 // Skill Status Color
+
+Light Red -> #F44336 // Skill Status Color
+
+Light Blue -> #03A9F4 // Skill Status Color
+Light2 Blue -> #2196F3 // Skill Status Color
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:500');
+
+* {
+    font-family: 'Quicksand', monospace;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.video-background {
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -99;
+    opacity: 0.4s
+}
+
+#id--dp {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+/* ============ Overview ========== */
+#id--overview-lower-ul {
+}
+
+#id--name {
+}
+
+/* ============ Skills ============ */
+
+#id--skills-body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#id--skills-left {
+    max-height: 80vh;
+    min-width: 40%;
+    overflow-y: scroll;
+}
+
+#id--skills-left ul li a {
+    font-size: 1.3em;
+    cursor: pointer;
+    color: inherit;
+}
+
+#id--skills-left ul li a:hover,
+#id--skills-left ul li a:active,
+#id--skills-left ul li a:focus  {
+    color: #8BC34A
+}
+
+#id--skills-right {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center;*/
+    min-width: 60%;
+    padding: 30px;
+}
+
+/* ---------- SkillDetailsTemplate -- */
+.skill-details-name {
+    font-size: 1.8em;
+}
+
+.skill-details-subheader {
+    font-size: 1.35em;
+}
+
+.skill-details-seperator {
+    margin-top: 5px;
+    width: 70%;
+}
+
+.skill-details-section {
+    margin-bottom: 20px;
+}
+
+/* ========== Sections ============== */
+.section {
+    min-height: 100vh;
+}
+
+/* ========== Common ================ */
+.section-header {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.fweight-bold {
+    font-weight: bold;
+}
+
+.progress-bar {
+    width: 40vh;
+    background-color: #ECEFF1;
+    border-radius: 100px;
+}
+
+.the-bar {
+    height: 50px;
+    border-radius: inherit;
+}
