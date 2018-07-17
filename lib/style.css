@@ -95,11 +95,16 @@ ul {
 
 .skill-details-seperator {
     margin-top: 5px;
-    width: 70%;
+    width: 90%;
 }
 
 .skill-details-section {
     margin-bottom: 20px;
+}
+
+.skill-status {
+    padding: 15px;
+    font-size: 1.2em;
 }
 
 /* ========== Sections ============== */
