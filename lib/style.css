@@ -84,6 +84,14 @@ ul {
     padding: 30px;
 }
 
+#id--skills-right-s {
+    display: none;
+    -webkit-transition: display .5s;
+    -webkit-transition: background-color .5s;
+    transition: display .5s;
+    transition: background-color .5s;
+}
+
 /* ---------- SkillDetailsTemplate -- */
 .skill-details-name {
     font-size: 1.8em;
@@ -105,6 +113,12 @@ ul {
 .skill-status {
     padding: 15px;
     font-size: 1.2em;
+}
+
+.the-bar {
+    width: 0%;
+    -webkit-transition: width .5s;
+    transition: width .5s;
 }
 
 /* ========== Sections ============== */

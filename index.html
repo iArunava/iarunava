@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head land='en-US'>
+<head lang='en-US'>
     <title> iArunava </title>
 
     <meta charset="utf-8">
@@ -12,6 +12,7 @@
     <link rel="stylesheet" href='./lib/typeit.css'>
     <link rel="stylesheet" href="./lib/style.css">
     <link rel="stylesheet" href="./dependencies/bulma.min.css">
+    <link rel="stylesheet" href='./dependencies/animate.css'>
 
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <script src="./dependencies/jquery.min.js"></script>
@@ -104,8 +105,40 @@
             </div>
 
             <div id='id--skills-right'>
-                <h3> Select a skill! </h3>
-                <small> No Skills Selected! </small>
+                <div id='id--skills-right-ns'>
+                    <h3> Select a skill! </h3>
+                    <small> No Skills Selected! </small>
+                </div>
+
+                <div id='id--skills-right-s'>
+                    <div class='skill-details-section'>
+                        <h3 class='skill-details-name'> </h3>
+                        <hr class='skill-details-seperator'/>
+                    </div>
+
+                    <div class='skill-details-section'>
+                        <p class='skill-details-subheader'> Status </p>
+                        <hr class='skill-details-seperator'/>
+                        <div class='progress-bar'>
+                            <div class='the-bar'>
+                            </div>
+                        </div>
+                        <p class='skill-status'> </p>
+                    </div>
+
+                    <div class='skill-details-section'>
+                        <p class='skill-details-subheader'> Projects </p>
+                        <hr class='skill-details-seperator'/>
+                        <ul class='skill-details-projects-list'></ul>
+                    </div>
+
+                    <div class='skill-details-section'>
+                        <p class='skill-details-subheader'> Other work </p>
+                        <hr class='skill-details-seperator'/>
+                        <ul class='other-work-list'></ul>
+                    </div>
+                </div>
+
             </div>
         </div>
 
