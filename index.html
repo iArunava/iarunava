@@ -157,16 +157,38 @@
 
         <div id='id--cert-body'>
             <div id='id--cert-left'>
-                <img class='img-cert' src='https://i.imgur.com/3w693ss.png' />
+                <ul id='id--all-certs-list'>
+                </ul>
             </div>
 
             <div id='id--cert-right'>
-                <p> Certification Name: <span id='id--cert-name'></span> </p>
-                <p> Certification Authority: <span id='id--cert-auth'></span></p>
-                <p> License Number: <span id='id--license'></span></p>
-                <p> From: <span id='id--cert-from'></span></p>
-                <p> To: <span id='id--cert-to'></span></p>
-                <p> Certification URL: <span id='id--cert-url'></span></p>
+                <div>
+                    <!--<img class='img-cert' src='./assets/certs/DLSPZ1.png' />-->
+                </div>
+                <hr/>
+                <div id='id--cert-details'>
+                    <div id='id--cert-modal' class="modal">
+                      <div class="modal-background"></div>
+                      <div class="modal-content">
+                        <p class="image is-4by3">
+                          <img id='id--cert-image' alt="Certification Image">
+                        </p>
+                      </div>
+                      <button id='id--cert-img-close' class="modal-close is-large" aria-label="close"></button>
+                    </div>
+
+                    <div>
+                        <p> Certification Name: <span id='id--cert-name'></span> </p>
+                        <p> Certification Authority: <span id='id--cert-auth'></span></p>
+                        <p> License Number: <span id='id--license'></span></p>
+                        <p> From: <span id='id--cert-from'></span></p>
+                        <p> To: <span id='id--cert-to'></span></p>
+                        <p> Certification URL: <span id='id--cert-url'></span></p>
+                        <hr/>
+                        <a id='id--see-cert' class="button is-success"> See Certification </a>
+                        <a id='id--cert-verify' href='' class="button is-info"> Verify Certification </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
