@@ -80,7 +80,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     /*align-items: center;*/
-    min-width: 60%;
+    min-width: 60vh;
     padding: 30px;
 }
 
@@ -121,6 +121,30 @@ ul {
     transition: width .5s;
 }
 
+/* ========== Certifications ======== */
+#id--cert-body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#id--cert-left {
+    max-width: 60%;
+}
+
+#id--cert-right {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 20%;
+    padding: 50px;
+    font-size: 1.2em;
+}
+
+.img-cert {
+    max-width: 100%;
+    max-height: 100%;
+}
 /* ========== Sections ============== */
 .section {
     min-height: 100vh;
