@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head lang='en-US'>
+    <title> iArunava </title>
+
+    <meta charset="utf-8">
+	<meta name="description" content="Personal Site of Arunava">
+	<meta name="keywords" content="arunava, skills, projects, progress, deep learning, computer vision">
+	<meta name="author" content="Arunava Chakraborty">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href='./lib/typeit.css'>
+    <link rel="stylesheet" href="./lib/style.css">
+    <link rel="stylesheet" href="./dependencies/bulma.min.css">
+    <link rel="stylesheet" href='./dependencies/animate.css'>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script src="./dependencies/jquery.min.js"></script>
+    <script src='./dependencies/typeit.min.js'></script>
+</head>
+
+<body>
+    <div id='id--main'>
+        <!--
+        <div class='video-background'>
+          <iframe id='id--video-frame' width="560" height="315"
+          src="https://www.youtube.com/embed/Te97D-9jr4o?controls=0&showinfo=0&rel=0&autoplay=&loop=1"
+          frameborder="0" allow="autoplay; encrypted-media"></iframe>
+        </div>
+        -->
+        <section class="hero is-fullheight">
+
+          <div class="hero-head">
+            <header class="navbar">
+              <div class="container">
+                <div class="navbar-brand">
+                  <a class="navbar-item">
+                      <!-- Put iArunava Image B) -->
+                  </a>
+                  <span class="navbar-burger burger" data-target="navbarMenuHeroC">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </span>
+                </div>
+                <div id="navbarMenuHeroC" class="navbar-menu">
+                  <div class="navbar-end fweight-bold">
+                    <a class="navbar-item is-active">
+                      Home
+                    </a>
+                    <a href='mailto:iarunavaofficial@gmail.com' class="navbar-item">
+                      Contact Me!
+                    </a>
+                    <span class="navbar-item">
+                      <a href='./assets/resume.pdf' target='_blank' class="button is-success is-inverted">
+                        <span>Resume</span>
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </header>
+          </div>
+
+          <div class="hero-body">
+            <div class="container">
+              <h1 class='section-header' id='id--name' class="title">
+                Arunava
+              </h1>
+              <h2 id='id--headline' class="subtitle">
+                Artificial Intelligence | Programmer
+              </h2>
+            </div>
+          </div>
+
+          <div class="hero-foot">
+            <nav class="tabs is-boxed is-fullwidth">
+              <div class="container">
+                <ul class='fweight-bold' id='id--overview-lower-ul'>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </section>
+    </div>
+
+    <hr/>
+    <!--
+    <div id='id--whoami'>
+    </div>
+
+    <hr/>
+    -->
+
+    <!-- =========================================================== -->
+    <div class='section' id='id--skills'>
+        <div id='id--skills-header'>
+            <h2 class='section-header'> Skills </h2>
+        </div>
+
+        <hr/>
+
+        <div id='id--skills-body'>
+            <div id='id--skills-left'>
+                <ul id='id--skills-list'>
+                </ul>
+            </div>
+
+            <div id='id--skills-right'>
+                <div id='id--skills-right-ns'>
+                    <h3> Select a skill! </h3>
+                    <small> No Skills Selected! </small>
+                </div>
+
+                <div id='id--skills-right-s'>
+                    <div class='skill-details-section'>
+                        <h3 class='skill-details-name'> </h3>
+                        <hr class='skill-details-seperator'/>
+                    </div>
+
+                    <div class='skill-details-section'>
+                        <p class='skill-details-subheader'> Status </p>
+                        <hr class='skill-details-seperator'/>
+                        <div class='progress-bar'>
+                            <div class='the-bar'>
+                            </div>
+                        </div>
+                        <p class='skill-status'> </p>
+                    </div>
+
+                    <div class='skill-details-section'>
+                        <p class='skill-details-subheader'> Projects </p>
+                        <hr class='skill-details-seperator'/>
+                        <ul class='skill-details-projects-list'></ul>
+                    </div>
+
+                    <div class='skill-details-section'>
+                        <p class='skill-details-subheader'> Other work </p>
+                        <hr class='skill-details-seperator'/>
+                        <ul class='other-work-list'></ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- =========================================================== -->
+
+    <div class='section' id='id--projects'>
+        <div id='id--proj-header'>
+            <h2 class='section-header'> Projects </h2>
+        </div>
+
+        <hr/>
+
+        <div id='id--proj-body'>
+            <div id='id--proj-left'>
+                <ul id='id--proj-list'></ul>
+            </div>
+
+            <div id='id--proj-right'>
+                <div id='id--proj-right-ns'>
+                    <h3> Select a Project! </h3>
+                    <small> No Projects Selected! </small>
+                </div>
+
+                <div id='id--proj-right-s'>
+                    <p id='id--proj-name'></p>
+                    <hr/>
+                    <p id='id--proj-desc'></p>
+                    <p id='id--proj-skills'></p>
+                    <hr/>
+                    <a id='id--see-code' class="button is-success" target="_blank"> Check out the code! </a>
+                    <a id='id--see-proj' href='' class="button is-info" target="_blank"> Check out the project! </a>
+                    <hr/>
+                    <a id='id--see-demo' class="button is-info" target="_blank"> Check out Demo! </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =========================================================== -->
+    <div class='section' id='id--certifications'>
+        <div id='id--cert-header'>
+            <h2 class='section-header'> Certifications </h2>
+        </div>
+
+        <hr/>
+
+        <div id='id--cert-body'>
+            <div id='id--cert-left'>
+                <ul id='id--all-certs-list'>
+                </ul>
+            </div>
+
+            <div id='id--cert-right'>
+                <div>
+                    <!--<img class='img-cert' src='./assets/certs/DLSPZ1.png' />-->
+                </div>
+                <hr/>
+                <div id='id--cert-details'>
+                    <div id='id--cert-modal' class="modal">
+                      <div class="modal-background"></div>
+                      <div class="modal-content">
+                        <p class="image is-4by3">
+                          <img id='id--cert-image' alt="Certification Image">
+                        </p>
+                      </div>
+                      <button id='id--cert-img-close' class="modal-close is-large" aria-label="close"></button>
+                    </div>
+
+                    <div>
+                        <p> Certification Name: <span id='id--cert-name'></span> </p>
+                        <p> Certification Authority: <span id='id--cert-auth'></span></p>
+                        <p> License Number: <span id='id--license'></span></p>
+                        <p> From: <span id='id--cert-from'></span></p>
+                        <p> To: <span id='id--cert-to'></span></p>
+                        <p> Certification URL: <span id='id--cert-url'></span></p>
+                        <hr/>
+                        <a id='id--see-cert' class="button is-success"> See Certification </a>
+                        <a id='id--cert-verify' href='' class="button is-info"> Verify Certification </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =========================================================== -->
+    <div class='section' id='id--courses'>
+    </div>
+
+    <!-- =========================================================== -->
+    <div class='section' id='id--contents'>
+    </div>
+
+    <!-- =========================================================== -->
+    <div class='section' id='id--publications'>
+    </div>
+
+    <!-- =========================================================== -->
+    <script src='./lib/commonvars.js'></script>
+    <script src='./lib/helper.js'></script>
+    <script src='./lib/templates.js'></script>
+    <script src='./lib/script.js'></script>
+</body>
+
+</html>
